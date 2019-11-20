@@ -29,6 +29,7 @@ return [
         Illuminate\Validation\ValidationException::class,
         Symfony\Component\HttpKernel\Exception\NotFoundHttpException::class,
         Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException::class,
+        Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException::class,
     ],
 
 ];
